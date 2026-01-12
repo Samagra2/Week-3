@@ -1,107 +1,71 @@
+# 📊 Sales Data Analysis with Python (Pandas)
 
-📊 Sales Data Analysis using Python (Pandas)
-📌 Project Overview
+This repository contains a complete **sales data analysis project** implemented using **Python and the Pandas library**.  
+The project demonstrates how real-world sales data can be cleaned, explored, and analyzed to extract meaningful business insights.
 
-This project focuses on analyzing real-world sales data using Python and the Pandas library.
-The goal is to understand sales performance by cleaning data, exploring key statistics, and extracting meaningful business insights such as total revenue, best-selling products, and top-performing regions.
+---
 
-This project is designed as part of Week 3: Introduction to Data Analysis, emphasizing hands-on learning with real datasets.
+## 🚀 Project Overview
+The goal of this project is to analyze a sales dataset to understand overall sales performance and identify key trends such as top-selling products and best-performing regions.  
+It is developed as part of **Week 3: Introduction to Data Analysis**, focusing on practical, hands-on learning.
 
-🎯 Objectives
+---
 
-Load and analyze sales data from a CSV file
+## 🎯 Objectives
+- Load and explore CSV data using Pandas  
+- Clean data by handling missing values and duplicates  
+- Perform statistical analysis on sales data  
+- Calculate key business metrics  
+- Generate a clear and structured sales report  
 
-Perform data cleaning (missing values & duplicates)
+---
 
-Compute key sales metrics
+## 🗂 Dataset Description
+**File:** `sales_data.csv`
 
-Identify best-selling products and regions
+**Columns:**
+- `Date` – Date of transaction  
+- `Product` – Product name  
+- `Quantity` – Number of units sold  
+- `Price` – Price per unit  
+- `Customer_ID` – Unique customer identifier  
+- `Region` – Sales region  
+- `Total_Sales` – Total value of each transaction  
 
-Generate a clear and readable analysis report
+**Dataset Size:**
+- Rows: 100  
+- Columns: 7  
 
-🗂 Dataset Description
+---
 
-File: sales_data.csv
+## 🛠 Technologies Used
+- **Python 3**
+- **Pandas**
+- **Google Colab / Local Python Environment**
 
-Attribute	Description
-Date	Date of transaction
-Product	Product name
-Quantity	Number of units sold
-Price	Price per unit
-Customer_ID	Unique customer identifier
-Region	Sales region
-Total_Sales	Total transaction value
+---
 
-Total Records: 100
-
-Total Columns: 7
-
-🛠 Tools & Technologies
-
-Python 3
-
-Pandas
-
-Google Colab / Local Python Environment
-
-📁 Project Structure
+## 📁 Project Structure
 Week3-Sales-Data-Analysis/
 │
-├── sales_analysis.py      # Main analysis script
-├── sales_data.csv         # Dataset used for analysis
-├── analysis_report.md     # Detailed analysis report
-├── requirements.txt       # Required Python libraries
-├── screenshot.png         # Output screenshot from execution
-└── README.md              # Project documentation
+├── sales_analysis.py # Main analysis script
+├── sales_data.csv # Dataset used for analysis
+├── analysis_report.md # Detailed analysis and findings
+├── requirements.txt # Project dependencies
+├── screenshot.png # Execution output screenshot
+└── README.md # Project documentation
 
-🚀 How to Run the Project
-🔹 Using Google Colab
 
-Open Google Colab
+---
 
-Upload sales_data.csv
+## ▶️ How to Run the Project
 
-Run the notebook or script cells sequentially
+### Option 1: Google Colab
+1. Open Google Colab  
+2. Upload `sales_data.csv`  
+3. Run the analysis cells sequentially  
 
-🔹 Using Local System
+### Option 2: Local System
+```bash
 pip install -r requirements.txt
 python sales_analysis.py
-
-📊 Key Metrics Calculated
-
-Total Revenue
-
-Average Sales Value
-
-Highest & Lowest Sale
-
-Best-Selling Product
-
-Top Performing Region
-
-🔍 Insights & Findings
-
-High-value products such as electronics generate maximum revenue
-
-Certain regions consistently outperform others in total sales
-
-The dataset is clean, structured, and suitable for business analysis
-
-✅ Learning Outcomes
-
-Practical understanding of Pandas data analysis workflow
-
-Experience with real datasets
-
-Improved skills in data cleaning, grouping, and aggregation
-
-Ability to present data-driven insights clearly
-
-👤 Author
-
-Samagra Gupta
-(Data Analysis | Python | Pandas)
-
-📌 Note
-
-This project is created for academic and internship evaluation purposes and follows industry-standard data analysis practices.
